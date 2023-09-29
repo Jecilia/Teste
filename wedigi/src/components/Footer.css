@@ -1,0 +1,14 @@
+.footer{
+  width: 26.75rem;
+  height: 4.6875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  background: #0A151E;
+  color: #fff;
+  text-transform: uppercase;
+  padding:25px;
+  font-size: .7rem;
+ 
+}

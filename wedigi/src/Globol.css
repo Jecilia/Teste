@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Inter;
+}
+a{
+  color: inherit;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 2rem;
+}
+.new-list{
+  width: 23.875rem;
+  height: 2.8125rem;
+  padding: 0.625rem 0.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E2E8E9;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.new-list  label input{
+  flex: 1;
+  border: none;
+  background-color:#E2E8E9;
+  resize: none;
+  font-weight: 500;
+  width: 20rem;
+}
+.new-list button{
+  border: none;
+  background-color:transparent;
+  cursor: pointer;
+}
+.new-list svg{
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.new-list input:focus{
+  outline: none;
+}
+.new-list input::placeholder{
+  color: #000;
+}

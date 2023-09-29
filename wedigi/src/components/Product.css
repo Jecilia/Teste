@@ -1,0 +1,21 @@
+.product{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F5F5F5;
+  ;
+}
+.product-header{
+display: flex;
+gap: 1rem;
+}
+.product button{
+border: none;
+cursor: pointer;
+background: transparent;
+}
+.product-header svg{
+width: 2rem;
+height: 2rem;
+}

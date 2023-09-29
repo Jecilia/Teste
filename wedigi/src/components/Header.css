@@ -1,0 +1,19 @@
+.header{
+  top: 1.875rem;
+  width: 26.75rem;
+  height:5.3125rem;
+  padding: 1.5625rem;
+  display: flex;
+  gap:6.625rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebeef0;
+}
+.header svg{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.header .logo {
+width: 7.8125rem;
+height: 2.1875rem;
+}
